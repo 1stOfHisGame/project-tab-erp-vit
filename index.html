@@ -1,0 +1,42 @@
+<?php
+session_start();
+session_unset();
+session_destroy();
+?>
+<html>
+<head>
+<title>VIT ERP Login</title>
+<link rel="stylesheet" href="proj.css" sheet="css/text"></link>
+<style>
+.login {
+height:210px;
+width:290px;
+margin:auto;
+border:3px #CCC solid;
+padding:50px;
+}
+ 
+.login input {
+padding:3px;
+height:50px;
+width:260px;
+margin:6px
+}
+</style>
+
+</head>
+<body>
+
+<img style="position:relative;top:0px;left:0px;float:left"height="100%" width="60%" src="login_image.jpeg"></img>
+<img style="position:relative;top:10%;right:5%;float:right" src="VIT-logo.png"></img>
+<div class="login" style="position:relative;top:25%;right:5%;float:right">
+<center>Sign in to continue</center>
+  <form name="login_form" action="login.php" method="post" autocomplete="on">
+
+                    <input id="username" type="usr" required placeholder="Username" name="usr"></input>
+                    <input id="pwd" type="password" required placeholder="Password" name="pwd" maxlength="20" minlength="3"></input><br>
+					<input class="button" type="submit" value="Login">
+  
+</div>
+</body>
+</html>
