@@ -9,6 +9,6 @@ It was built as a mini project for the subject Software Engineering, in T.Y. Com
 - Online record for all Final Year Projects
 - Guide can edit the status and comment on weekly work
 - HOD can view status of all projects pertaining to his/her respective department
-# Setting up this locally
-- CLone this repository on your localhost
+# Setup
+- Clone this repository on your localhost
 - Use phpmyadmin to import the SQL database
